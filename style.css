@@ -1,0 +1,38 @@
+#wow {
+    background-color: black;
+    color: whitesmoke;
+}
+.head{
+    color: yellow;
+    font-weight: bold;
+    text-align:center;
+    font-size: 500%;
+    font-family: "Libre Baskerville", serif;
+}
+.para{
+    color: white;
+    font-size: 150%;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+#io {
+    height:10%;
+    width:10%;
+}
+#d1 {
+    text-align:center;
+}
+#pt{
+    margin-bottom: 70px;
+}
+hr{
+    height:4px;
+}
+#d2 {
+    text-align: center;
+    margin-bottom: 100px ;
+}
+
+
+
