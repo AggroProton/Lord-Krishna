@@ -27,6 +27,20 @@ But it must have the following features:
     <body>
       <div id="cont">
        <img src="./assets/images/Krishna.jpg" alt="Krishna" id="img" />
+       <audio id="kri" src="../assets/images/Flute Mp3.mp3"></audio>
+       <script>
+         const image = document.getElementById("img");
+         const music = document.getElementById("kri");
+    
+         image.addEventListener("click", () => {
+          if (music.paused) {
+            music.play();   // Play if paused
+          } else {
+            music.pause();  // Pause if playing
+          }
+         });
+       </script>
+
 
        <h1 id="head">That Special Moment</h1>
 

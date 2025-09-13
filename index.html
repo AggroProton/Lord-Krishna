@@ -1,50 +1,34 @@
-<!-- 
-  TODO: Create a motivational post website.
-Style it how ever you like. 
-Look at the goal image for inspiration.
-But it must have the following features:
-1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
-  https://fonts.google.com/specimen/Libre+Baskerville
-2. The text should be white and background black.
-3. Add your own image into the images folder inside assets. It should have a 5px white border.
-4. The text should be center aligned.
-5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
-  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
-  Hint: Set the image to have a width of 100% so it fills the div. 
-6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
-  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
--->
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-      <meta charset="utf-8" />
-      <title>Motivational Webstie</title>
-      <link rel="stylesheet" href="./style.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Lord Krishna</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-      <div id="cont">
-       <img src="./assets/images/Krishna.jpg" alt="Krishna" id="img" />
-       <audio id="kri" src="../assets/images/Flute Mp3.mp3"></audio>
-       <script>
-         const image = document.getElementById("img");
-         const music = document.getElementById("kri");
-    
-         image.addEventListener("click", () => {
-          if (music.paused) {
-            music.play();   // Play if paused
-          } else {
-            music.pause();  // Pause if playing
-          }
-         });
-       </script>
-
-
-       <h1 id="head">That Special Moment</h1>
-
-       <p id="Para">"When you feel the divine grace in every corner of your life"</p>
-      </div>
+    <body id="wow">
+        <div id="d1">
+            <h2 class="head" id="ho">The Divine Flutist</h2>
+            <p class="para" id="po">Lord Krishna, revered as the eighth avatar of the god Vishnu, is one of the most beloved and complex figures in Hinduism. From his birth as a divine child in Mathura to his mischievous youth in Vrindavan, his life is a tapestry of miraculous feats and playful pastimes. He is celebrated as the butter-stealing child, the enchanting flutist whose music captivates all, and the protector of the innocent. His early life stories are a source of profound joy and devotion for millions, symbolizing the accessibility of the divine in everyday life.</p>
+            <a href="./Previous/index.html"><img id="io" src="./assets/images/Om.jpeg" alt="Om" /></a>
+        </div>
+        <div id="d2">
+            <p id="p2" class="para">​"You have the right to work,<br /> but never to the fruit of work.<br /> You should never engage in action<br /> for the sake of reward,<br /> nor should you long for inaction."<br /></p>
+        </div>
+        <div id="d3">
+            <h2 class="head" id="ht">The Supreme Teacher</h2>
+            <p class="para" id="pt">Beyond his enchanting youth, Krishna's life embodies the highest ideals of dharma and wisdom. As a young man, he became a strategic warrior and a divine statesman, guiding the Yadava clan and establishing the city of Dwaraka. His most significant role, however, came during the great war of the Mahabharata. Serving as the charioteer to the Pandava prince Arjuna, he delivered the timeless spiritual discourse known as the Bhagavad Gita. This sacred text, a dialogue on duty, devotion, and the nature of the self, remains a foundational guide for righteous living and spiritual liberation, teaching that true peace comes from selfless action and unwavering faith.</p>
+        </div>
+        <hr />
+        <footer>
+            <p id="p4">Made by: Kailash<br />
+                Instagram &RightArrow; <a href="https://www.instagram.com/aritakuu?igsh=czJ5bnFoeWhsb3kz">Insta</a>
+            </p>
+        </footer>
     </body>
-  </html>
+</html>    
+    
+            
