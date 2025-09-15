@@ -30,15 +30,3 @@ hr{
     height:4px;
 }
 
-#d2 > #p2 {
-    position: relative;
-    right: 10%;
-}
-#is { 
-    height: 300px;
-    position : absolute;
-    right: 0%;
-    top : 600px
-}
-
-
