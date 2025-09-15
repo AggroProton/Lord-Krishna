@@ -1,4 +1,4 @@
 <p>Lord Krishna</p>
 <p>Tribute Page</P>
-<highlight><p>!Made For Desktop Screens!</p>
+<p style= color : Yellow ; Font-weight : Bold;>!Made For Desktop Screens!</p>
 
